@@ -166,3 +166,73 @@ body{
     font-size: 24px;
     font-weight: 700;
 }
+/*TEST*/
+.test{
+    padding: 95px 0;
+}.test__text{
+    text-align: center;
+    color: #242424;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}.test__title{
+    text-align: center;
+    color: #242424;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.44px;
+    text-transform: capitalize;
+}.test__img{
+    display: flex;
+    margin: auto;  
+    padding: 8px 0;
+}.test__card-title{
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}.test__cards{
+    display: flex;
+    column-gap: 35px;
+}.test__card{
+    width: 410px;
+    border-radius: 10px;
+    border: 1px solid rgba(51, 51, 51, 0.10);
+    background: #FFF;
+    padding: 30px 50px 30px 30px;
+}.test__card-text{
+    width: 300px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px 0 20px 0;
+}.test__ads-icon{
+    color: #333333;
+    align-items: center;
+}.test__ads-icon span{
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+}.test__chev span{
+    align-items: center;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+    padding: 0 30px;
+}.test__chev{
+    color: #646464;
+    align-items: center;
+    transition: .5;
+    display: flex;
+    justify-content: center;
+}.test__chev:hover{
+    color: #BB2339;
+}
+
