@@ -71,3 +71,46 @@
 }.header__img{
     transform: translatex(80px) translateY(20px);
 }
+/*MAIN*/
+body{
+    background: #F8F8F8;
+}.food__desc{
+    padding: 120px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.food__chev{
+    display: flex;
+    column-gap: 20px;
+    color: #646464;
+    transition: .5;
+}.food__chev:hover{
+    color: #BB2339;
+}.food__title{
+    color: #BB2339;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 1.44px;
+    text-transform: capitalize;
+}.food__cards{
+    display: flex;
+    margin: auto;
+    column-gap: 20px;
+}.food__card{
+    background: #fff;
+    padding: 20px 20px 40px 20px;
+    border-radius: 14px;
+}.food__card-title{
+    width: 250px;
+    color: #242424;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}.food__card-mark{
+    padding:0 0 0 70px;
+}.food__card-num{
+    color: #BB2339;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
