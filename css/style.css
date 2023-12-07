@@ -74,6 +74,8 @@
 /*MAIN*/
 body{
     background: #F8F8F8;
+}.food{
+    padding: 0 0 120px 0;
 }.food__desc{
     padding: 120px 0 20px 0;
     display: flex;
@@ -109,6 +111,56 @@ body{
 }.food__card-mark{
     padding:0 0 0 70px;
 }.food__card-num{
+    color: #BB2339;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+/*MENU*/
+.menu{
+    padding: 120px 0;
+}.menu{
+    width: 100%;
+    background: #fff;
+}.menu__title{
+    color: #BB2339;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 1.44px;
+    text-transform: capitalize;
+}.menu__list{
+    display: flex;
+    column-gap: 10px;
+    padding: 60px 0 50px 0;
+}.menu__link{
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.8px;
+    padding: 8px 34px;
+    text-transform: capitalize;
+    border: 1px solid red;
+}.menu__cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    row-gap: 30px;
+    column-gap: 15px;
+}.menu__card{
+    background: #fff;
+    padding: 20px 20px 40px 20px;
+    border-radius: 14px;
+    border: 1px solid rgba(36, 36, 36, 0.10)
+}.menu__card-title{
+    width: 250px;
+    color: #242424;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}.menu__card-mark{
+    padding:0 0 0 70px;
+}.menu__card-num{
     color: #BB2339;
     text-align: center;
     font-size: 24px;
